@@ -12,3 +12,7 @@ git sparse-checkout list
 git commit 
 git push
 
+# zmena viditelneho seznamu
+git sparse-checkout set mapa subtree
+```
+
