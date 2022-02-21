@@ -1,1 +1,14 @@
 pokus o samostatny adresar co bude soucasti vetsiho repository
+
+```
+# inicializace sparse
+git sparse-checkout init        
+# nastavim/pridam adresar a ostatni zmizi!
+git sparse-checkout set subtree
+# kontrola
+git sparse-checkout list
+
+# uz jedu normalne !
+git commit 
+git push
+
